@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          初回アップロード
+          Learn React
         </a>
       </header>
     </div>
