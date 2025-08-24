@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Post } from '../data/posts';
 
-export const Detail = () => {
+export const Detail: React.FC = () => {
   const { id } = useParams<{ id: string }>(); 
   const [post, setPost] = useState<Post | null>(null); // 記事データの状態管理
   const [loading, setLoading] = useState<boolean>(true); // ローディング状態

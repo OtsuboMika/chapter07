@@ -4,7 +4,7 @@ import classes from "../css/Main.module.css";
 import { Link } from 'react-router-dom';
 import { Post } from '../data/posts';
 
-export const Main = () => {
+export const Main: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState<boolean>(true); // ローディング状態
   const [error, setError] = useState<string | null>(null); // エラー状態
